@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import MagicMock, patch
 from bs4 import BeautifulSoup
-from main.dummy_app import get_titles
+from dummy_app import get_titles
 
 class TestGetTitles(unittest.TestCase):
     def test_get_titles(self):
