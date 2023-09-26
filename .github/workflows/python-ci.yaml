@@ -37,4 +37,13 @@ jobs:
     - name: Wake up
       run: |
         echo "I have slept enough!"
+
+  angry-girlfriend:
+    runs-on: ubuntu-latest
+    needs: sleepy time
+
+    steps:
+    - name: Rage
+      run: |
+        echo "I waited enough! Take me to the restaurant!"
       
