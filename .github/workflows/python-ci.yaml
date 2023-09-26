@@ -1,5 +1,7 @@
 name: Python CI
 
+run-name: PythLine
+
 on: [push]
 
 jobs:
