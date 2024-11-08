@@ -1,2 +1,2 @@
 # gha-attempts
-A practice repo to discover the basics of GHA.
+A practice repo to discover the basics of GHA
